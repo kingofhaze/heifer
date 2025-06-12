@@ -1,4 +1,4 @@
-const inputName = 'NAME';
+const { moo } = require('./moo.js');
 
-console.log(`moo, ${inputName}!`);
+console.log(moo('NAME'));
 
