@@ -1,7 +1,3 @@
-const moo = (inputName) => {
+export const moo = (inputName) => {
   return `moo, ${inputName}!`;
-}
-
-module.exports = {
-    moo
 };
