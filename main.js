@@ -1,4 +1,8 @@
 import { moo } from './moo.js';
+import { say } from 'cowsay';
 
-console.log(moo('NAME'));
+
+const message = moo('there');
+
+console.log(say({ text: message}));
 
